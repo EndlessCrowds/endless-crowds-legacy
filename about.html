@@ -3,191 +3,144 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us | Endless Crowds</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        .btn-primary {
-            background: #be9b72;
-            color: white;
-            padding: 12px 30px;
-            border-radius: 5px;
-            font-weight: 600;
-        }
-
-        .btn-primary:hover {
-            background: #a17f5b;
-        }
-    </style>
+    <link rel="stylesheet" href="combined-styles.css">
 </head>
 
-<body class="bg-gray-50">
-    <div style='background-color: #0A3161; color: white; text-align: center; padding: 15px; font-weight: 600;'>
-        Endless Crowds has evolved. Visit our new patriotic platform:
-        <a href='https://americancrowds.com' style='color: #FFD700; text-decoration: underline;'>AmericanCrowds.com</a>
-    </div>
-
-    <header class="bg-white shadow-sm border-b">
-        <div class="container mx-auto px-4 py-4">
-            <div class="flex justify-between items-center">
-                <div class="flex items-center">
-                    <img src="https://placehold.co/150x50/0A3161/white?text=EndlessCrowds&font=roboto"
-                        alt="Endless Crowds" class="h-12">
-                </div>
-                <nav class="hidden md:flex space-x-6">
-                    <a href="index.html" class="text-gray-700 hover:text-blue-600">Home</a>
-                    <a href="about.html" class="text-gray-700 hover:text-blue-600 font-semibold">About</a>
-                    <a href="foundation.html" class="text-gray-700 hover:text-blue-600">Foundation</a>
-                    <a href="boost.html" class="text-gray-700 hover:text-blue-600">Boost</a>
-                    <a href="contact.html" class="text-gray-700 hover:text-blue-600">Contact</a>
-                    <a href="faq.html" class="text-gray-700 hover:text-blue-600">FAQ</a>
+<body>
+    <div style='background-color:#0A3161;color:white;text-align:center;padding:15px;font-weight:600'>Endless Crowds has
+        evolved. Visit our new patriotic platform: <a href='https://americancrowds.com'
+            style='color:#FFD700'>AmericanCrowds.com</a></div>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand"><a href="index.html"><img src="images/logo2.png" alt="Endless Crowds"
+                        class="img_logo"></a></div>
+            <div class="nav-header-right">
+                <nav class="main-nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="foundation.html">Foundation</a></li>
+                        <li><a href="boost.html">Boost</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
                 </nav>
             </div>
         </div>
-    </header>
-
-    <div class="bg-cover bg-center py-20"
-        style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?auto=format&fit=crop&w=1600&q=80');">
-        <div class="container mx-auto px-4 text-center text-white">
-            <h1 class="text-5xl font-bold">ABOUT US</h1>
+    </nav>
+    <div class="wrapper">
+        <div class="page-title"
+            style="background:url('images/flag-soldier.jpg') center/cover;padding:80px 0;text-align:center;color:white">
+            <h1>About Us</h1>
         </div>
-    </div>
-
-    <div class="bg-gray-100 py-2">
-        <div class="container mx-auto px-4">
-            <nav class="text-sm">
-                <a href="index.html" class="text-blue-600 hover:underline">Home</a> / <span class="text-gray-600">About
-                    Us</span>
-            </nav>
-        </div>
-    </div>
-
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-3xl font-light text-right mb-2">We support your fundraising</h2>
-                    <p class="text-2xl font-bold text-right mb-4">by leveraging our network of online and offline
-                        resources.</p>
-                    <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80"
-                        alt="Detroit Skyline" class="rounded shadow-lg">
-                </div>
-                <div>
-                    <h5 class="text-xl font-bold text-amber-700 mb-4">WHAT DO WE DO?</h5>
-                    <p class="mb-4"><strong>FUNDRAISING PROJECTS</strong> - Anybody can raise money to support America's
-                        heroes & families. Our 5% fee on donations is used raising public awareness & finding corporate
-                        partners to boost your projects.</p>
-                    <p class="mb-4"><strong>HERO SPONSORSHIP</strong> - Sponsor your local departments, charity or
-                        heroes with monthly donations as low as $1. Coming soon!</p>
-                    <p class="mb-6">EndlessCrowds.com fundraising is free and easy to use, saving your organization time
-                        and money in minutes instead of months.</p>
-                    <a href="#" class="btn-primary inline-block">GET STARTED</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-blue-900 text-white">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4">SUPPORTING OUR TROOPS</h3>
-                    <img src="https://placehold.co/100x100/ffffff/0A3161?text=Military" alt="Military Badge"
-                        class="mb-4">
-                </div>
-                <div>
-                    <p class="mb-4">The U.S. Armed Forces are made up of the five armed service branches: Air Force,
-                        Army, Coast Guard, Marine Corps, and Navy.</p>
-                    <p class="mb-4">There are three general categories of military people: active duty (full-time
-                        soldiers and sailors), reserve/guard forces, and veterans. And of course there are the millions
-                        of family members and friends of military members, past and present.</p>
-                    <a href="#" class="btn-primary inline-block">START A PROJECT</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-red-700 text-white">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4 text-amber-200">Supporting FireFighters</h3>
-                    <img src="https://placehold.co/100x100/ffffff/DC2626?text=Fire" alt="Fire Badge" class="mb-4">
-                </div>
-                <div>
-                    <p class="mb-4">The best way to refer to a fire department is an "All Emergencies Department" as
-                        they are often first responders to just about every emergency you can think of.</p>
-                    <p class="mb-4">The estimated number of firefighters working in the U.S. is 1,134,400. Of that
-                        number, 346,150 are career firefighters and 788,250 are volunteers.</p>
-                    <a href="#" class="btn-primary inline-block">START A PROJECT</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-green-700 text-white">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                    <h3 class="text-2xl font-bold mb-4 text-amber-200">Supporting First Responders</h3>
-                    <img src="https://placehold.co/100x100/ffffff/059669?text=EMS" alt="EMS Badge" class="mb-4">
-                </div>
-                <div>
-                    <p class="mb-4">Our definition of a First Responder is simple: A First Responder is any individual
-                        who runs toward an event rather than away. Emergency medical services and police departments are
-                        the most common.</p>
-                    <a href="#" class="btn-primary inline-block">START A PROJECT</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <div>
-                    <img src="https://placehold.co/150x50/1F2937/white?text=EndlessCrowds" alt="Endless Crowds"
-                        class="mb-4">
-                    <p class="text-gray-400 text-sm mb-4">EndlessCrowds.com makes it easy to support America's troops,
-                        first responders & families.</p>
-                    <div class="flex space-x-4">
-                        <a href="https://www.facebook.com/EndlessCrowds" target="_blank"
-                            class="text-gray-400 hover:text-white"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/EndlessCrowds" target="_blank"
-                            class="text-gray-400 hover:text-white"><i class="fa fa-twitter"></i></a>
-                        <a href="https://www.youtube.com/channel/UCvfXIoF-GO8WZYYFHYOMUMg" target="_blank"
-                            class="text-gray-400 hover:text-white"><i class="fa fa-youtube-play"></i></a>
+        <div class="container">
+            <section>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="text-right image-first-title">We support your fundraising</p>
+                        <p class="text-right image-second-title">by leveraging our network of online</p>
+                        <p class="text-right image-second-title last-image-title">and offline resources.</p><img
+                            src="images/detroit-skylane.jpg" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-lg-6 about-hero-text">
+                        <h5 class="about-title">WHAT DO WE DO?</h5>
+                        <p><strong>FUNDRAISING PROJECTS</strong> - Anybody can raise money to support America's heroes &
+                            families. Our 5% fee on donations is used raising public awareness & finding corporate
+                            partners to boost your projects.</p>
+                        <p><strong>HERO SPONSORSHIP</strong> - Sponsor your local departments, charity or heroes with
+                            monthly donations as low as $1. Coming soon!</p>
+                        <p>EndlessCrowds.com fundraising is free and easy to use, saving your organization time and
+                            money in minutes instead of months.</p><br><a href="#" class="btn btn-4 light-brown">GET
+                            STARTED</a>
                     </div>
                 </div>
-                <div>
-                    <h5 class="font-bold mb-4">Information</h5>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="about.html" class="text-gray-400 hover:text-white">About us</a></li>
-                        <li><a href="foundation.html" class="text-gray-400 hover:text-white">Foundation</a></li>
-                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="font-bold mb-4">Important</h5>
-                    <ul class="space-y-2 text-sm">
-                        <li><a href="faq.html" class="text-gray-400 hover:text-white">FAQ/Help</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h5 class="font-bold mb-4">Contact Info</h5>
-                    <p class="text-sm text-gray-400"><i class="fa fa-map-marker mr-2"></i>Detroit, MI 48226</p>
+            </section>
+        </div>
+        <section class="about-full-width-card-1" id="about-full-width-card-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4"><span class="about-full-width-card-span">SUPPORTING OUR TROOPS</span><img
+                            src="images/white-medal.png" alt=""></div>
+                    <div class="col-lg-8">
+                        <p class="about-full-width-card-1p">The U.S. Armed Forces are made up of the five armed service
+                            branches: Air Force, Army, Coast Guard, Marine Corps, and Navy.</p>
+                        <p class="about-full-width-card-2p">There are three general categories of military people:
+                            active duty (full-time soldiers and sailors), reserve/guard forces, and veterans. And of
+                            course there are the millions of family members and friends of military members, past and
+                            present.</p><a href="#" class="btn btn-4 light-brown">START A PROJECT</a>
+                    </div>
                 </div>
             </div>
-            <div class="border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-                Copyright &copy; 2013-2019 Endless Crowds LLC
+        </section>
+        <section class="about-full-width-card-2" id="about-full-width-card-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-right"><span
+                            class="about-full-width-card-span light-brown-about">Supporting FireFighters</span><img
+                            src="images/fire-shield.png" alt=""></div>
+                    <div class="col-lg-8">
+                        <p class="about-full-width-card-1p">The best way to refer to a fire department is an "All
+                            Emergencies Department" as they are often first responders to just about every emergency you
+                            can think of.</p>
+                        <p class="about-full-width-card-2p">The estimated number of firefighters working in the U.S. is
+                            1,134,400. Of that number, 346,150 are career firefighters and 788,250 are volunteers.</p><a
+                            href="#" class="btn btn-4 light-brown">START A PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-full-width-card-3" id="about-full-width-card-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 text-right"><span
+                            class="about-full-width-card-span light-brown-about">Supporting First Responders</span><img
+                            class="img-responsive" src="images/med-shield.png" alt=""></div>
+                    <div class="col-lg-8">
+                        <p class="about-full-width-card-1p">Our definition of a First Responder is simple: A First
+                            Responder is any individual who runs toward an event rather than away. emergency medical
+                            services and police departments are the most common.</p><a href="#"
+                            class="btn btn-4 light-brown">START A PROJECT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="container footer-links">
+            <div class="row">
+                <div class="col-lg-4 footer-about"><img src="images/logo-footer.png" alt="Endless Crowds">
+                    <p>EndlessCrowds.com makes it easy to support America's troops, first responders & families.</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/EndlessCrowds" target="_blank"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/EndlessCrowds" target="_blank"><i
+                                    class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Information</h5>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="foundation.html">Foundation</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>Important</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyrights">
+            <div class="container">
+                <div class="copyright-text">Copyright &copy; 2013-2019 Endless Crowds LLC</div>
             </div>
         </div>
     </footer>
